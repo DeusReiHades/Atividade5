@@ -22,7 +22,7 @@ public class tabuada {
 
             }
 
-        } while(resposta != 1);
+        } while(resposta != 2);
 
     }
     public static void tabuada() {
