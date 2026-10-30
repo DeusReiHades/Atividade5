@@ -23,7 +23,7 @@ public class tabuada {
             }
 
         } while(resposta != 2);
-
+Sc.close();
     }
     public static void tabuada() {
         Scanner Sc = new Scanner(System.in);
@@ -42,6 +42,7 @@ public class tabuada {
             System.out.println("Tabuada completa");
 
         }
+        Sc.close();
     }
 }
 
