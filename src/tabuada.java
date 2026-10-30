@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class tabuada {
@@ -32,14 +31,14 @@ public class tabuada {
         int numeroFinal = 1;
         System.out.println("Deseje o numero que deseja ver a tabuada, de 1 a 10:");
         numeroInicial = Sc.nextInt();
-        if (numeroInicial > 0 || numeroInicial < 11) {
+        if (numeroInicial > 0 && numeroInicial < 11) {
 
             while (controlador < 11) {
                 numeroFinal = numeroInicial * controlador;
                 controlador++;
                 System.out.println(numeroFinal);
             }
-            System.out.println("Tabuada completa");
+            System.out.println("Tabuada completa\n");
 
         }
     }
