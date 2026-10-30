@@ -3,6 +3,12 @@ import java.util.Scanner;
 
 public class tabuada {
     public static void main(String[] args) {
+        menu();
+    }
+
+
+
+    public static void menu () {
       Scanner Sc = new Scanner(System.in);
         int resposta = 0;
         do {
